@@ -1,6 +1,6 @@
 ## Telegram Birthday Reminder Bot
 
-Este bot se encargará de recordarte dia a dia los cumpleaños de un calendario de Google. El archivo `main.py` deberá configurarse en el servidor con un crontab diario, de forma que solo te notifique los cumpleaños una sola vez.
+Este bot se encargará de recordarte día a día los cumpleaños de un calendario de Google. El archivo `main.py` deberá configurarse en el servidor con un crontab diario, de forma que solo te notifique los cumpleaños una sola vez.
 El archivo `bot.py` deberá estar ejecutandose de forma contínua para poder interactuar con el Bot.
 
 Para poder usar el BOT necesitamos tener:
