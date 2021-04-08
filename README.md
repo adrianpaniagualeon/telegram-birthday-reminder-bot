@@ -12,10 +12,25 @@ Para poder usar el BOT necesitamos tener:
 
 ****
 ### ¿Cómo crear una API de Google Calendar?
-Proximamente ...
+- Abre [Google Developers Console](https://console.cloud.google.com/apis/dashboard)
+- En el menú superior haz click en "Selecciona un Proyecto" y después "Proyecto Nuevo".
+- Dé un nombre a su proyecto, acepte los términos y haga clic en Crear.
+- En el panel de Google Developers Console, seleccione "Habilitar API y Servicios" .
+- Seleccione "Google Calendar Api". Luego haga clic en Haga clic en Habilitar.
+- Vaya a la pestaña de "Credenciales" y a continuación en "Configurar pantalla de consentimiento"
+- Establezca el Tipo de usuario en Externo y haga clic en Crear.
+- Ingrese el nombre de la aplicación (no es importante), el correo electrónico de asistencia al usuario y el correo electrónico de asistencia al desarrollador. Debe de ser un correo electrónico válido.
+- Haz click en "Agregar Permisos" y selecciona todos. Después dale a "Actualizar" y a "Guardar y Continuar".
+- Te saldrá una nueva ventana, haz click en "Guardar y continuar" y "Volver al Panel".
+- Seleccione Credenciales en el menú de la izquierda, haga clic en Crear credenciales y luego seleccione Clave de API.
+- Guarda la clave de API en un lugar seguro.
 
 ### ¿Cómo crear un Bot de Telegram?
-Proximamente ...
+- Envia el comando `/newbot` a [@BotFather](https://t.me/BotFather).
+- A continuación envia el nombre que quieras que tenga tu bot. Ej: BOT DE CUMPLEAÑOS
+- Después envia el nombre de usuario que quieras que tenga tu bot. Tiene que ser un nombre de usuario que no este siendo usado por otro bot, no tiene que tener espacios y tiene que acabar obligatoriamente en `bot`.
+- Si todo está correcto, recibiras un mensaje con un TOKEN único. 
+Es importante que, antes de ejecutar el archivo `main.py` hagas click en el boton "Start" del Bot.
 
 ### ¿Cómo obtener mi Chat ID?
 Para encontrar tu Chat ID, envia `/start` a [@chatid_echo_bot](https://t.me/chatid_echo_bot). El número que te devuelve es tu Chat ID.
