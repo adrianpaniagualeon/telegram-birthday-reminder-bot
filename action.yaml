@@ -1,0 +1,29 @@
+name: Telegran Birthday
+
+on:
+  schedule:
+  - cron: "0 12 * * *"
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    - name: EJECUTAR
+      env:
+        IDCALENDAR: ${{ secrets.IDCALENDAR }}
+        KEYCALENDAR: ${{ secrets.KEYCALENDAR }}
+        TOKENTELEGAM: ${{ secrets.TOKENTELEGAM }}
+        CIDTELEGAM: ${{ secrets.CIDTELEGAM }}
+      run: |
+        python main.py
+
