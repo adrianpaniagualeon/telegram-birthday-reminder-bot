@@ -7,12 +7,12 @@ from datetime import datetime, timedelta, date
 import time
 import telebot
 from flask import Flask
+import os
 
-CALENDAR_ID = "CALENDAR_ID"
-CALENDAR_KEY = "CALENDAR_TOKEN"
-TELEGRAM_TOKEN = "TELEGRAM_TOKEN"
-TELEGRAM_CID= "TELEGRAM_CHAT_ID"
-
+CALENDAR_ID = os.environ['IDCALENDAR']
+CALENDAR_KEY = os.environ['KEYCALENDAR']
+TELEGRAM_TOKEN = os.environ['TOKENTELEGAM']
+TELEGRAM_CID= os.environ['CIDTELEGAM']
 
 
 bot = telebot.TeleBot(TELEGRAM_TOKEN)
