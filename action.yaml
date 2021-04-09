@@ -1,5 +1,7 @@
 name: Telegran Birthday
-
+description: Este bot de Telegam se encargará de recordarte día a día los cumpleaños de un calendario de Google Calendar. 
+icon: calendar
+color: purple
 on:
   schedule:
   - cron: "0 11 * * *"
