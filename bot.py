@@ -71,7 +71,10 @@ def week(message):
 		else:
 			for i in range (events):
 				names[i] = resp['items'][i]['summary']
-				day[i] = resp['items'][i]['start']['date']
+				try:
+					day[i] = resp['items'][i]['start']['date']
+				except:
+					day[i] = resp['items'][i]['start']['dateTime']
 				day[i] = datetime.strptime(day[i], '%Y-%m-%d').strftime("%d/%m/%Y")
 				try:
 					requests.post('https://api.telegram.org/bot'+TELEGRAM_TOKEN+'/sendMessage', data={'chat_id': TELEGRAM_CID , 'text': "El dia "+day[i]+" es el cumpleaños de  "+names[i]+"."}) 
