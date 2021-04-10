@@ -12,6 +12,11 @@ Para poder usar el BOT necesitamos tener:
 - [ ] Tu Chat ID. (En caso de usarse en un grupo, el Chat ID del grupo)
 - [ ] Un servidor (Se puede usar Github Actions)
 
+## ¿Cómo puedo colaborar?
+Existen tres formas de colaborar:
+- Añadiendo nuevas funcionalidades al bot mediante _pull-request_. 
+- Aportación económica: Puedes aportar tu granito de arena por [Paypal](https://paypal.me/panleoad)
+- Invitarme a un café: Me puedes invitar a un café a través de [Ko-Fi](https://ko-fi.com/adrianpaniagualeon)
 
 Para saber como configurar el BOT visita la [WIKI](https://github.com/adrianpaniagualeon/telegram-birthday-reminder-bot/wiki)
 
