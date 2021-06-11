@@ -20,3 +20,4 @@ Existen tres formas de colaborar:
 
 Para saber como configurar el BOT visita la [WIKI](https://github.com/adrianpaniagualeon/telegram-birthday-reminder-bot/wiki)
 
+
